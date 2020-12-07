@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+   <HEAD>
+	<META charset="UTF-8">
+	<TITLE>SRF05 Technical Documentation</TITLE>
+   </HEAD>
+	<BODY>
+		<p ALIGN=CENTER>
+			<B><FONT SIZE=10>SRF05 - Ultra-Sonic Ranger<BR></FONT><FONT SIZE=3>Technical Specification</FONT></B>
+		</p>	
+		<p ALIGN=CENTER>
+			<IMG SRC="SRF05%20Technical%20Documentation_fichiers/srf05a.jpg" NAME="images1" ALIGN=BOTTOM WIDTH=300 HEIGHT=202 BORDER=0>
+		</p>
+		<p>
+			<B>Introduction</B><BR>The SRF05 is an evolutionary step from the SRF04, and has been designed to increase flexibility, increase range,
+			and to reduce costs still further. As such, the SRF05 is fully compatible with the SRF04. Range is increased from 3 meters to 4
+			meters. A new operating mode (tying the mode pin to ground) allows the SRF05 to use a single pin for both trigger and echo, thereby
+			saving valuable pins on your controller. When the mode pin is left unconnected, the SRF05 operates with separate trigger and echo pins,
+			like the SRF04. The SRF05 includes a small delay before the echo pulse to give slower controllers such as the Basic Stamp and Picaxe
+			time to execute their pulse in commands.
+		</p>
+		<p>
+			<B>Mode 1 - SRF04 compatible - Separate Trigger and Echo</B>
+			<BR>
+			This mode uses separate trigger and echo pins, and is the simplest mode to
+			use. All code examples for the SRF04 will work for the SRF05 in this mode. To use this mode, just leave the mode pin unconnected - the
+			SRF05 has an internal pull up resistor on this pin.
+		</p><BR><BR>
+		<p ALIGN=CENTER>
+			<IMG SRC="SRF05%20Technical%20Documentation_fichiers/srf05p2.jpg" NAME="images2" ALIGN=LEFT WIDTH=642 HEIGHT=337 BORDER=0>
+		</p>
+		<p ALIGN=CENTER>
+			<IMG SRC="SRF05%20Technical%20Documentation_fichiers/srf05tma.gif" NAME="images3" ALIGN=CENTER WIDTH=700 HEIGHT=376 BORDER=1>
+		</p>
+		<p>
+			<BR><BR>
+		</p>
+		<p ALIGN=LEFT>
+			There is more information in the <A HREF="http://www.robot-electronics.co.uk/htm/sonar_faq.htm">sonarfaq.</A>
+		</p>
+		
+		<h2 ALIGN = CENTER>
+			<u>File modify for SNT : Chapitre 3 : Le WEB</u>
+		</h2>
+	</BODY>
+</HTML>
